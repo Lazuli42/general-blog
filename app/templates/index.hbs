@@ -1,10 +1,11 @@
 <div class="container">
   <div class="jumbotron text-center">
-    <h1>bloggsie: home</h1>
+    <!-- <img id="corgi" src="https://ashwyatt.files.wordpress.com/2011/08/corgi-jump.jpg"> -->
+    <h1>bloggsie</h1>
   </div>
 
   {{new-post savePost2="savePost3"}}
-
+  <hr>
   {{#each model as |post|}}
     {{display-post post=post destroyPost="destroyPost"}}
   {{/each}}

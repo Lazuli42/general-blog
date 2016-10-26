@@ -20,3 +20,19 @@ body {
 footer {
   text-align: center;
 }
+
+.jumbotron {
+    background-image: url(https://ashwyatt.files.wordpress.com/2011/08/corgi-jump.jpg);
+}
+
+#content {
+  min-height: 80px;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  border-radius: 10px;
+}

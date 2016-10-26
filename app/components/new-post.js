@@ -1,7 +1,16 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  isImageShowing: false,
+
   actions: {
+
+    imageShow: function() {
+      this.set('isImageShowing', true);
+    },
+    imageHide: function() {
+      this.set('isImageShowing', false);
+    },
 
     savePost1() {
       var params = {
@@ -11,6 +20,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
         time: this.get('time'),
       };
+      this.set('isImageShowing', false);
       this.sendAction('savePost2', params);
     }
   }
