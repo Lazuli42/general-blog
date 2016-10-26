@@ -13,6 +13,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyDUU9kptOs0lFdeWAD64CpVZ-rt9Ikn-n4",
+    authDomain: "bloggsie-fdc8a.firebaseapp.com",
+    databaseURL: "https://bloggsie-fdc8a.firebaseio.com",
+    storageBucket: "bloggsie-fdc8a.appspot.com",
+    messagingSenderId: "982186604588"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

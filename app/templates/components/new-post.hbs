@@ -1,0 +1,20 @@
+<form>
+<div class="form-group">
+  <label>Title</label>
+  {{input value=title id="title" class="form-control"}}
+
+  <label>Author</label>
+  {{input value=author id="author" class="form-control"}}
+
+  <label>Content</label>
+  {{input value=content id="content" class="form-control"}}
+
+  <label>Image Url</label>
+  {{input value=image id="image" class="form-control"}}
+
+  <label>Date</label>
+  {{input value=time id="time" class="form-control"}}
+</div>
+
+  <button class="btn btn-success" {{action 'savePost1'}}>Submit</button>
+</form>
