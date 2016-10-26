@@ -1,0 +1,12 @@
+<!-- {{yield}} -->
+
+<div>
+  <h2>{{post.title}}</h2>
+  <h4>{{post.author}}</h4>
+  <img class="img-responsive" src={{post.image}}>
+  <p>
+    {{post.content}}
+  </p>
+  <h6>{{post.time}}</h6>
+  <button {{action 'delete' post}}>delete post</button>
+</div>

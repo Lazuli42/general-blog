@@ -2,6 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
+
     savePost1() {
       var params = {
         title: this.get('title'),
