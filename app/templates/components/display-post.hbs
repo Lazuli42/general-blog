@@ -3,12 +3,13 @@
 <div>
   <h2 class="text-center">{{post.title}}</h2>
   <h4 class="text-center">by {{post.author}}</h4>
-  <p><img class="img-responsive" src={{post.image}}></p>
+  <p><img class="img-fill img-responsive" src={{post.image}}></p>
   <p>
     {{post.content}}
   </p>
   <h6>posted {{post.time}}
-  <button class="btn btn-default pull-right" {{action 'delete' post}}>delete post</button></h6>
+  {{update-post post=post update="update"}}
+  <button class="btn-glyph btn btn-default pull-right" {{action 'delete' post}}> <span class="glyphicon glyphicon-remove-circle"></span></button></h6>
 </div>
 <br>
 <hr>

@@ -1,5 +1,6 @@
 body {
   font-family: "Avenir Next";
+  background-color: #FFF8E7;
 }
 
 #contact {
@@ -35,4 +36,30 @@ p {
 
 img {
   border-radius: 10px;
+}
+
+.glyphicon {
+  display: flex;
+  vertical-align: center;
+  font-size: 2em;
+  color: #f31313;
+}
+
+#new-post {
+  border-radius: 5px;
+  height: 42px;
+  width: 54px;
+}
+
+.glyphicon-plus-sign {
+  color: #7f7f7f;
+}
+
+.btn-glyph {
+  border-style: none;
+  background-color: transparent;
+}
+
+.img-fill {
+  width: 100%;
 }
