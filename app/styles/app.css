@@ -1,0 +1,18 @@
+body {
+  font-family: "Avenir Next";
+}
+
+#contact {
+  font-family: "Avenir Next Condensed";
+  font-size: 2em;
+}
+
+.navbar {
+  border-radius: 0px;
+  background-color: #202640;
+  color: white;
+}
+
+.navbar-header {
+  color: white;
+}
